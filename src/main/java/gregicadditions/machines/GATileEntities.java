@@ -424,11 +424,11 @@ public class GATileEntities {
 			TUNGSTENSTEEL_CRATE = GregTechAPI.registerMetaTileEntity(2212, new TileEntityCrate(location("crate.tungstensteel"), Materials.TungstenSteel, 126));
 		}
 
-		// 2213 - 2220
+		// 2214 - 2221
 		IntStream.range(0, 8).forEach(tier -> {
 			BUNDLER[tier] =
 				GregTechAPI.registerMetaTileEntity(
-					2213 + tier,
+					2214 + tier,
 					new SimpleMachineMetaTileEntity(location("bundler." + GTValues.VN[tier + 1].toLowerCase()),
 													GARecipeMaps.BUNDLER_RECIPES,
 													Textures.PACKER_OVERLAY, // FIXME: need new textures for this machine
