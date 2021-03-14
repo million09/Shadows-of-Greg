@@ -459,6 +459,7 @@ recipemap.naquadah_reactor.name=Naquadah Reactor Fuels
 recipemap.replicator.name=Replicator
 recipemap.mass_fab.name=Mass Fabricator
 recipemap.cracker_unit.name=[Deprecated] Cracking Recipes
+recipemap.bundler.name=Wire Bundling
 
 recipemap.plasma_generator.name=Plasma Turbine Fuels
 
@@ -704,6 +705,15 @@ fluid.tile.lava=Lava
 gregtech.machine.assembler.iv.name=Assembler IV
 gregtech.machine.autoclave.iv.name=Autoclave IV
 gregtech.machine.laser_engraver.iv.name=Laser Engraver IV
+
+gtadditions.machine.bundler.lv.name=Basic Bundler
+gtadditions.machine.bundler.mv.name=Intermediate Bundler
+gtadditions.machine.bundler.hv.name=Advanced Bundler
+gtadditions.machine.bundler.ev.name=Extreme Bundler
+gtadditions.machine.bundler.iv.name=Elite Bundler
+gtadditions.machine.bundler.luv.name=Master Bundler
+gtadditions.machine.bundler.zpm.name=Ultimate Bundler
+gtadditions.machine.bundler.uv.name=Instant Bundler
 
 metaitem.plank.jungle.name=Jungle Plank
 metaitem.plank.acacia.name=Acacia Plank

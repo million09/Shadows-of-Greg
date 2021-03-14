@@ -25,6 +25,8 @@ public class GARecipeMaps {
 	public static final RecipeMap<SimpleRecipeBuilder> REPLICATOR_RECIPES;
 	@ZenProperty
 	public static final RecipeMap<SimpleRecipeBuilder> PROCESSING_ARRAY_RECIPES;
+	@ZenProperty
+	public static final RecipeMap<SimpleRecipeBuilder> BUNDLER_RECIPES;
 
 	static {
 		CLUSTER_MILL_RECIPES = new RecipeMap<>("cluster_mill", 1, 1, 1, 1, 0, 0, 0, 0, new SimpleRecipeBuilder()).setSlotOverlay(false, false, GuiTextures.BENDER_OVERLAY).setProgressBar(GuiTextures.PROGRESS_BAR_BENDING, ProgressWidget.MoveType.HORIZONTAL);
@@ -34,5 +36,8 @@ public class GARecipeMaps {
 		MASS_FAB_RECIPES = new RecipeMap<>("mass_fab", 0, 1, 0, 0, 0, 1, 1, 2, new SimpleRecipeBuilder()).setProgressBar(GuiTextures.PROGRESS_BAR_BENDING, ProgressWidget.MoveType.HORIZONTAL);
 		REPLICATOR_RECIPES = new RecipeMap<>("replicator", 0, 1, 0, 1, 1, 2, 0, 1, new SimpleRecipeBuilder()).setProgressBar(GuiTextures.PROGRESS_BAR_BENDING, ProgressWidget.MoveType.HORIZONTAL);
 		PROCESSING_ARRAY_RECIPES = new RecipeMap<>("processing_array", 0, 9, 0, 6, 0, 3, 0, 2, new SimpleRecipeBuilder()).setProgressBar(GuiTextures.PROGRESS_BAR_BENDING, ProgressWidget.MoveType.HORIZONTAL);
+		BUNDLER_RECIPES = new RecipeMap<>("bundler", 2, 2, 1, 1, 0, 0, 0, 0, new SimpleRecipeBuilder().EUt(12).duration(250))
+			.setSlotOverlay(false, false, true, GuiTextures.CIRCUIT_OVERLAY)
+			.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, ProgressWidget.MoveType.HORIZONTAL);
 	}
 }
