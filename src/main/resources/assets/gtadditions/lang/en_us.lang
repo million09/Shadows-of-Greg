@@ -707,13 +707,16 @@ gregtech.machine.autoclave.iv.name=Autoclave IV
 gregtech.machine.laser_engraver.iv.name=Laser Engraver IV
 
 gtadditions.machine.bundler.lv.name=Basic Bundler
-gtadditions.machine.bundler.mv.name=Intermediate Bundler
-gtadditions.machine.bundler.hv.name=Advanced Bundler
-gtadditions.machine.bundler.ev.name=Extreme Bundler
-gtadditions.machine.bundler.iv.name=Elite Bundler
-gtadditions.machine.bundler.luv.name=Master Bundler
-gtadditions.machine.bundler.zpm.name=Ultimate Bundler
-gtadditions.machine.bundler.uv.name=Instant Bundler
+gtadditions.machine.bundler.mv.name=Advanced Bundler
+gtadditions.machine.bundler.hv.name=Advanced Bundler II
+gtadditions.machine.bundler.ev.name=Advanced Bundler III
+gtadditions.machine.bundler.iv.name=Advanced Bundler IV
+gtadditions.machine.bundler.luv.name=Elite Bundler I
+gtadditions.machine.bundler.luv.tooltip=Lapotron 3000
+gtadditions.machine.bundler.zpm.name=Elite Bundler II
+gtadditions.machine.bundler.zpm.tooltip=Lapotron 6000
+gtadditions.machine.bundler.uv.name=Elite Bundler III
+gtadditions.machine.bundler.uv.tooltip=Lapotron 9000
 
 metaitem.plank.jungle.name=Jungle Plank
 metaitem.plank.acacia.name=Acacia Plank

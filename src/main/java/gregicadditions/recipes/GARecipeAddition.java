@@ -157,7 +157,7 @@ public class GARecipeAddition {
 			}
 
 			// Bundler
-			if(m instanceof IngotMaterial && !OreDictUnifier.get(OrePrefix.wireGtSingle, m).isEmpty()) {
+			if(!OreDictUnifier.get(OrePrefix.wireGtSingle, m).isEmpty()) {
 
 				OrePrefix[] wirePrefixes = new OrePrefix[]{ OrePrefix.wireGtSingle, OrePrefix.wireGtDouble,
 															OrePrefix.wireGtQuadruple, OrePrefix.wireGtOctal,
